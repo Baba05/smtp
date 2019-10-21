@@ -1,0 +1,46 @@
+please take input as the data.xlsx file in your program and return the below mentioned outputs
+
+Note the file contains 5 columns
+
+1.Incident_number	
+2.Application
+3.Date
+4.Error_description
+5.Status
+
+Task 1:
+--------------
+
+1. send email for the client ( please take your capgemini email address for this case ) where your email contains all the 
+incident ticket details grouped based on the error description like "Database error" , "Network error" , "Access Denied " 
+and having Status as Active
+
+eg :
+
+email body will be somewhat like this
+
+
+Database Error :
+--------------------
+INC0035627	EQP	20181126	caused because of the databse connection error	Active
+INC0023242	IBD	20181127	caused because of the databse connection error	Active
+
+and so on 
+
+Network Issue :
+-------------------
+
+INC0065456	IBD	20181124	caused because of the network issue	Active
+INC0000076	EQP	20181125	caused because of the network issue	Active
+
+and so on
+
+
+Access Issue:
+-------------
+
+INC0052423	EQP	20181128	caused because of the Access Denied issue	Active
+INC0001415	MDM	20181202	caused because of the Access Denied issue	Active
+
+and so on 
+
